@@ -8,9 +8,9 @@ class ActiveSupport::TestCase
 
   # Add more helper methods to be used by all tests here...
 
-  def login_as(user)
-		post login_url, params: {name: user.name, password: 'secret' }
-	end
+ 	def login_as(user)
+			post login_url, params: {name: user.name, password: 'secret' }
+		end
 
 	def  logout
 		delete login_url
@@ -19,5 +19,4 @@ class ActiveSupport::TestCase
 	def setup
 		login_as users(:one)
 	end
-end
-end
+ end
