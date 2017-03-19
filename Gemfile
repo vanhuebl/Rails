@@ -50,3 +50,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #add jquery-rails and jquery-ui-rails gem
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+
+#add gem bcrypt
+gem 'bcrypt', '~> 3.1.7'
